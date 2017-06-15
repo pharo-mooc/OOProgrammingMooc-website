@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
-        <title>Learning Object-Oriented Programming, Design and TDD in Pharo</title>
+        <title>Learning Object-Oriented Programming, Design with TDD in Pharo</title>
 
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
@@ -53,26 +53,47 @@
             </div> <!-- container-fluid -->
         </nav>
         <div class="container">
-            <h1>Object-Oriented Programming, Design and TDD in Pharo</h1>
+            <h1>Object-Oriented Programming, Design with TDD in Pharo</h1>
             
             <section>
                 <h2>About this course</h2>
-                <p>This lecture will teach you the way program with live objects. We will stress Test Driven Development and Design point. <a href="#about-details" data-toggle="collapse">more…</a></p>
+                <p>This lecture will teach you the way program with live objects. We use Test Driven Development and show Object-Oriented Design using multiple examples. 
+		<p> Object-oriented programming is more than just writing algorithms. It is identifying objects, defining the behavior of such objects and how they collaborate together. Object-oriented design experts think in terms of responsibilities and collaborations that an object has. 
+			
+	In addition finding a good design is a challenging task that depends on the context and often there is no such thing that the perfect correct solution. There are tradeoffs. Therefore good design is often the result of an iterative process. In this course we will follow the expression: "Designing starts when the program compiles" it means that we will first get a first version and think about it and since we will have written tests we will be able to change the design and improve it. This way you will learn by doing.  
 
-                <div class="collapse" id="about-details">
-                    <p>Pharo is a pure object-oriented programming language in the tradition of Smalltalk. It offers a unique developing experience in constant interaction with live objects. Pharo is elegant, fun to use and very powerful. It is very easy to learn and enables to understand advanced concept in a natural way. When programming in Pharo, you are immersed in a world of live objects. You have immediate
+	<p>
+In this lecture we will focus on object-oriented programming concepts:
+<ul> 
+	<li> Objects / Classes </li>
+	<li> Messages / Methods</li>
+	<li> self/this and its semantics</li>
+	<li> Inheritance</li>
+	<li> super and its semantics</li>
+	<li> Tests are your life ensurance</li>
+</ul>
+ …and on object-oriented design concepts:
+ <ul>
+	<li> Class responsibility collaboration</li>
+	<li> Delegation</li>
+	<li> Message sends are choice (what would be the equivalent to not)</li>
+	<li> Message sends are plans for reuse</li>
+	<li> Polymorphism</li>
+	<li>The "Don't ask, tell" Principle</li>
+	<li> Some design patterns</li>
+</ul>
+
+<p>We decided to use Pharo. Pharo is not mainstream but it is used in many Universities in the world to teach object-oriented programming because it is one of the best language to grasp the complex design forces that makes good design. Pharo syntax is small and Pharo model is pure and elegant. 
+What you will learn can be applied to any object-oriented programming language.
+
+<a href="#about-details" data-toggle="collapse">more…</a></p>			
+   <div class="collapse" id="about-details">
+ Pharo is a pure object-oriented programming language in the tradition of Smalltalk. It offers a unique developing experience in constant interaction with live objects. Pharo is elegant, fun to use and very powerful. It is very easy to learn and enables to understand advanced concept in a natural way. When programming in Pharo, you are immersed in a world of live objects. You have immediate
  feedback at any moment of your development on objects representing web applications, code itself, graphics, network…</p>
+ 
 
                     <p>Pharo is also a very powerful open-source environment used by companies to develop web applications.</p>
-
-                    <p>In this lecture we will use the Pharo MOOC.</p>
-
-                    <p>In addition we will present fundamental programming
-                        concepts and how Pharo uses them. We will present some
-                        coding idioms and Design Patterns to better design
-                        object-oriented applications. Such concepts can be applied
-                        to any object-oriented programming language.</p>
-
+					
                     <p>Throughout this lectures you will :</p>
                     <ul>
                         <li>learn how to program in Pharo,</li>
@@ -84,13 +105,20 @@
                     <p>This lectures also focuses a new vision of the
                         fundamental principles of object-oriented programming,
                         i.e. polymorphism and late binding.</p>
-
-                    <p>This course lasts XX weeks.</p>
+						
                     <p>Each week is composed of several sequences containing a
                         video lecture, quizzes and other videos proposing
                         application exercises and programming demonstrations.</p>
                 </div> <!-- details -->
-            </section>
+
+Resources
+In this lecture we use the following resources
+<ul> 
+	<li> Pharo Mooc <a href="http://mooc.pharo.org">http://mooc.pharo.org</a> </li>
+	<li> A book: Learning Object-Oriented Programming and Design with TDD in Pharo, that has been written for you</li>
+</ul>
+
+   </section>
            
             <section id="week1">
                 <h2>Week 1: Welcome on Board and Syntax Discovery</h2>
